@@ -1,0 +1,5 @@
+this calculator created by muhamed samy
+it's contain:
+	1- basic arithmetic commands
+	2- basic opiration for example : x^2 ,  square (x) 
+	3- some orthagonal operation ex: sin, cos , tan, ....
