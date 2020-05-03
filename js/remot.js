@@ -14,4 +14,7 @@ document.getElementById('square').onclick = function (){}
 
 document.getElementById('sqrt').onclick = function (){}
 
-document.getElementById('clear').onclick = function (){}
+document.getElementById('clear').onclick = function (){
+    document.getElementById('screen').value = '';
+    document.getElementById('txt').value = '';
+}
