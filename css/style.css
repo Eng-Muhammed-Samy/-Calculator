@@ -48,3 +48,42 @@
     border-right:1px solid #000839; 
 }
 /* end editing of text input*/
+/* start editing the input type button */
+.continer .row0,
+.continer .row1,
+.continer .row2,
+.continer .row3,
+.continer .row4,
+.continer .row5{
+    width: 100%;
+    padding: 5px 0px;
+
+}
+.continer .row0 input{
+    padding: 5px 0px;
+    font-size: 25px;
+    width: 90px;
+    height: 60px;
+    border: .5px solid #888888 ;
+    background:none;
+}
+.continer .row1 input{
+    padding: 5px 0px;
+    font-size: 30px;
+    width: 90px;
+    height: 60px;
+    border: .5px solid #888888 ;
+    background:#204051;
+    color: white;
+}
+.continer .row2 input,
+.continer .row3 input,
+.continer .row4 input,
+.continer .row5 input{
+    padding: 5px 0px;
+    font-size: 30px;
+    width: 90px;
+    height: 60px;
+    border: .5px solid #888888 ;
+    background:none;
+}
