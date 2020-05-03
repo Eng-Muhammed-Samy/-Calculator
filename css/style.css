@@ -1,0 +1,50 @@
+/* general property*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main container property*/
+.continer{
+    width: 400px;
+    border: 1px solid #888888;
+    margin: 100px auto;
+    text-align: center;
+    background-color: #ffffff;
+}
+.continer:hover{
+    transition: border,background .5 linear;
+    border: 3px #dd2c00 solid;
+    background:linear-gradient(30deg,#27496d,#00909e);
+}
+.continer .show{
+    width: 100%;
+    margin: 10px 0;
+}
+/* start text input editing */
+.continer .show #screen{
+    width: 93%;
+    font-size: 40px;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 0px 0px 10px 10px;
+    padding: 23px 12px;
+    border-top: none;
+    border-bottom: 1px solid #dd2c00;
+    border-left:1px solid #dd2c00;
+    border-right:1px solid #dd2c00;
+    text-align: right;
+    margin-top: 0px;
+    color: black;
+    background-color: white;
+}
+.continer .show input:hover{
+    border-top: 1px solid #000839;
+    border-left:1px solid #000839;
+    border-right:1px solid #000839; 
+}
+.continer .show #screen:hover{
+    border-bottom: 1px solid #000839;
+    border-left:1px solid #000839;
+    border-right:1px solid #000839; 
+}
+/* end editing of text input*/
