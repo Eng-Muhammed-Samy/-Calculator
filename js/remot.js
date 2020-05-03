@@ -18,9 +18,19 @@ document.getElementById('subtract').onclick = function (){
     document.getElementById('screen').value = " ";
 }
 
-document.getElementById('division').onclick = function (){}
+document.getElementById('division').onclick = function (){
+    var value = document.getElementById('screen').value ;
+    operator = '/';
+    document.getElementById('txt').value = value +" "+ operator +" ";
+    document.getElementById('screen').value = " ";
+}
 
-document.getElementById('multiplication').onclick = function (){}
+document.getElementById('multiplication').onclick = function (){
+    var value = document.getElementById('screen').value ;
+    operator = '*';
+    document.getElementById('txt').value = value +" "+ operator +" ";
+    document.getElementById('screen').value = " ";
+}
 
 document.getElementById('square').onclick = function (){}
 
