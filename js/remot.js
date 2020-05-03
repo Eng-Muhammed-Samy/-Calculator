@@ -1,10 +1,22 @@
+var value ,
+    operator;
 function setNum(a){
     document.getElementById('screen').value += a ;
 }
 
-document.getElementById('add').onclick = function (){}
+document.getElementById('add').onclick = function (){
+    var value = document.getElementById('screen').value ;
+    operator = '+';
+    document.getElementById('txt').value = value +" "+ operator +" ";
+    document.getElementById('screen').value = " ";
+}
 
-document.getElementById('subtract').onclick = function (){}
+document.getElementById('subtract').onclick = function (){
+    var value = document.getElementById('screen').value ;
+    operator = '-';
+    document.getElementById('txt').value = value +" "+ operator +" ";
+    document.getElementById('screen').value = " ";
+}
 
 document.getElementById('division').onclick = function (){}
 
