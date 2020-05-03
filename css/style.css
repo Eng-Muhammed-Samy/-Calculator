@@ -87,3 +87,37 @@
     border: .5px solid #888888 ;
     background:none;
 }
+.continer .row2 input:last-child,
+.continer .row3 input:last-child,
+.continer .row4 input:last-child,
+.continer .row5 input:last-child{
+    background-color: #204051;
+    color: white;
+}
+.continer .row0 input:hover,
+.continer .row1 input:hover,
+.continer .row2 input:hover,
+.continer .row3 input:hover,
+.continer .row4 input:hover,
+.continer .row5 input:hover{
+    transition: background-color .5s ease-in-out;
+    background-color:rgb(207, 22, 22);
+    border: 1px solid #dd2c00;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.continer .row0 input:active,
+.continer .row1 input:active,
+.continer .row2 input:active,
+.continer .row3 input:active,
+.continer .row4 input:active,
+.continer .row5 input:active{
+    transition: background-color .5s ease-in-out;
+    background-color: #000839;
+}
+/*end editing of buttons*/
+/* edit = button */
+#sum{ width: 184px;}
+
+.continer div:last-child{ padding-bottom: 20px; }
