@@ -32,9 +32,15 @@ document.getElementById('multiplication').onclick = function (){
     document.getElementById('screen').value = " ";
 }
 
-document.getElementById('square').onclick = function (){}
+document.getElementById('square').onclick = function (){
+    value = document.getElementById('screen').value;
+    document.getElementById('screen').value = Math.pow(value, 2);
+}
 
-document.getElementById('sqrt').onclick = function (){}
+document.getElementById('sqrt').onclick = function (){
+    value = document.getElementById('screen').value;
+    document.getElementById('screen').value = Math.sqrt(value);
+}
 
 document.getElementById('clear').onclick = function (){
     document.getElementById('screen').value = '';
