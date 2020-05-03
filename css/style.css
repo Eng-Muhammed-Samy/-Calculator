@@ -37,6 +37,22 @@
     color: black;
     background-color: white;
 }
+.continer .show input{
+    width: 93%;
+    margin-top: 20px;
+    padding: 10px 5px;
+    margin-right: -5px;
+    border-bottom: none;
+    border-top: 1px solid #dd2c00;
+    border-left:1px solid #dd2c00;
+    border-right:1px solid #dd2c00;
+    color: rgb(141, 138, 138);
+    font-size: 20px;
+    text-align: right;
+    border-radius: 10px 10px 0px 0px;
+    background-color: white;
+}
+
 .continer .show input:hover{
     border-top: 1px solid #000839;
     border-left:1px solid #000839;

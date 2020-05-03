@@ -1,4 +1,6 @@
-function setNum(a){}
+function setNum(a){
+    document.getElementById('screen').value += a ;
+}
 
 document.getElementById('add').onclick = function (){}
 

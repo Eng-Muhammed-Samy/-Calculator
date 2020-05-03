@@ -10,8 +10,8 @@
     <body>
         <div class="continer">
             <div class="show">
-                <input  type="text" />
-                <input  type="text" />
+                <input  id="txt" type="text" disabled/>
+                <input  id="screen" type="text" placeholder="0" disabled/>
             </div>          
             <div class="row0">
                 <input   type="button" value="sin(x)"  id="sin">
@@ -32,25 +32,25 @@
                 <input   type="button" value="÷"       id="division">
             </div>
             <div class="row2">
-                <input   type="button" value="7" onclick="setNum();">
-                <input   type="button" value="8" onclick="setNum();">
-                <input   type="button" value="9" onclick="setNum();">
+                <input   type="button" value="7" onclick="setNum(7);">
+                <input   type="button" value="8" onclick="setNum(8);">
+                <input   type="button" value="9" onclick="setNum(9);">
                 <input   type="button" value="×" id="multiplication">
             </div>
             <div class="row3">
-                <input   type="button" value="4" onclick="setNum();">
-                <input   type="button" value="5" onclick="setNum();">
-                <input   type="button" value="6" onclick="setNum();">
+                <input   type="button" value="4" onclick="setNum(4);">
+                <input   type="button" value="5" onclick="setNum(5);">
+                <input   type="button" value="6" onclick="setNum(6);">
                 <input   type="button" value="-" id="subtract">
             </div>
             <div class="row4">
-                <input   type="button" value="1" onclick="setNum();">
-                <input   type="button" value="2" onclick="setNum();">
-                <input   type="button" value="3" onclick="setNum();">
+                <input   type="button" value="1" onclick="setNum(1);">
+                <input   type="button" value="2" onclick="setNum(2);">
+                <input   type="button" value="3" onclick="setNum(3);">
                 <input   type="button" value="+" id="add">
             </div>
             <div class="row5">
-                <input   type="button" value="0" onclick="setNum();">
+                <input   type="button" value="0" onclick="setNum(0);">
                 <input   type="button" value="." onclick="setNum();">
                 <input   type="button" value="=" id="sum">
             </div>
