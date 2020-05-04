@@ -69,3 +69,8 @@ document.getElementById('clear').onclick = function (){
     document.getElementById('screen').value = '';
     document.getElementById('txt').value = '';
 }
+document.getElementById('sin').onclick = function (){
+    value = parseInt(document.getElementById('screen').value);
+    var x = Math.sin(value *(Math.PI/180));
+    document.getElementById('screen').value = x;
+}
