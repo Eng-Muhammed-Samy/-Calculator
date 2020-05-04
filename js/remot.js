@@ -74,3 +74,7 @@ document.getElementById('sin').onclick = function (){
     var x = Math.sin(value *(Math.PI/180));
     document.getElementById('screen').value = x;
 }
+document.getElementById('cos').onclick = function (){
+    value = Math.cos(parseInt(document.getElementById('screen').value)*(Math.PI/180));
+    document.getElementById('screen').value = value ;
+}
