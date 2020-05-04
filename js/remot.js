@@ -75,6 +75,20 @@ document.getElementById('sin').onclick = function (){
     document.getElementById('screen').value = x;
 }
 document.getElementById('cos').onclick = function (){
-    value = Math.cos(parseInt(document.getElementById('screen').value)*(Math.PI/180));
-    document.getElementById('screen').value = value ;
+    var x = parseInt(document.getElementById('screen').value) ;
+    if(x == 90){
+        document.getElementById('screen').value = '0' ;
+    }else{ 
+        value = Math.cos(x*(Math.PI/180));
+        document.getElementById('screen').value = value ;
+    }
+}
+document.getElementById('tan').onclick = function (){
+    var x = parseInt(document.getElementById('screen').value) ;
+    if(x == 90){
+        document.getElementById('screen').value = '∞' ;
+    }else{ 
+        value = Math.tan(x*(Math.PI/180));
+        document.getElementById('screen').value = value ;
+    }
 }
