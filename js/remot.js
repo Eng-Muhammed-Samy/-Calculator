@@ -105,3 +105,9 @@ document.getElementById('cot').onclick = function (){
         document.getElementById('screen').value = 1/value ;
     }
 }
+
+document.getElementById('Asin').onclick = function () {
+    value = parseInt(document.getElementById('screen').value);
+    var x = Math.asin(value);
+    document.getElementById('screen').value  = x ;
+}
