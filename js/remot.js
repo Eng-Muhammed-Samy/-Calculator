@@ -123,3 +123,9 @@ document.getElementById('Atan').onclick = function () {
     var x = Math.atan(value);
     document.getElementById('screen').value  = x ;
 }
+
+document.getElementById('Acot').onclick = function () {
+    value = parseInt(document.getElementById('screen').value);
+    var x = Math.atan(value);
+    document.getElementById('screen').value  = 1 / x ;
+}
