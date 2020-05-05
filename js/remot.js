@@ -69,11 +69,13 @@ document.getElementById('clear').onclick = function (){
     document.getElementById('screen').value = '';
     document.getElementById('txt').value = '';
 }
+
 document.getElementById('sin').onclick = function (){
     value = parseInt(document.getElementById('screen').value);
     var x = Math.sin(value *(Math.PI/180));
     document.getElementById('screen').value = x;
 }
+
 document.getElementById('cos').onclick = function (){
     var x = parseInt(document.getElementById('screen').value) ;
     if(x == 90){
@@ -83,6 +85,7 @@ document.getElementById('cos').onclick = function (){
         document.getElementById('screen').value = value ;
     }
 }
+
 document.getElementById('tan').onclick = function (){
     var x = parseInt(document.getElementById('screen').value) ;
     if(x == 90){
@@ -90,5 +93,15 @@ document.getElementById('tan').onclick = function (){
     }else{ 
         value = Math.tan(x*(Math.PI/180));
         document.getElementById('screen').value = value ;
+    }
+}
+
+document.getElementById('cot').onclick = function (){
+    var x = parseInt(document.getElementById('screen').value) ;
+    if(x == 90){
+        document.getElementById('screen').value = '0' ;
+    }else{ 
+        value = Math.tan(x*(Math.PI/180));
+        document.getElementById('screen').value = 1/value ;
     }
 }
