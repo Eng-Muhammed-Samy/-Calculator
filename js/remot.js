@@ -111,3 +111,15 @@ document.getElementById('Asin').onclick = function () {
     var x = Math.asin(value);
     document.getElementById('screen').value  = x ;
 }
+
+document.getElementById('Acos').onclick = function () {
+    value = parseInt(document.getElementById('screen').value);
+    var x = Math.acos(value);
+    document.getElementById('screen').value  = x ;
+}
+
+document.getElementById('Atan').onclick = function () {
+    value = parseInt(document.getElementById('screen').value);
+    var x = Math.atan(value);
+    document.getElementById('screen').value  = x ;
+}
